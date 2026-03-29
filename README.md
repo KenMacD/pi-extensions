@@ -1,4 +1,4 @@
-# pi-mono
+# pi-extensions
 
 Personal extensions for the [Pi coding agent](https://github.com/badlogic/pi-mono).
 
