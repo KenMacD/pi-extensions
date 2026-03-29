@@ -4,9 +4,10 @@ Personal extensions for the [Pi coding agent](https://github.com/badlogic/pi-mon
 
 ## Extensions
 
-| Extension                                            | Description                                                                                 |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [container-guidance](extensions/container-guidance/) | Detects container environments and loads container-specific guidance into the system prompt |
+| Extension                                                        | Description                                                                                 |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [container-guidance](extensions/container-guidance/)             | Detects container environments and loads container-specific guidance into the system prompt |
+| [custom-provider-qwen-cli](extensions/custom-provider-qwen-cli/) | Qwen models via OAuth with chat.qwen.ai (device code + PKCE). Adds Qwen 3.5 Plus            |
 
 ## Install (pi package manager)
 
@@ -33,7 +34,10 @@ If you keep a local clone, add extensions to your `~/.pi/agent/settings.json`:
 
 ```json
 {
-  "extensions": ["~/pi-extensions/extensions/container-guidance"]
+  "extensions": [
+    "~/pi-extensions/extensions/container-guidance",
+    "~/pi-extensions/extensions/custom-provider-qwen-cli"
+  ]
 }
 ```
 
