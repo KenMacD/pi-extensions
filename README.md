@@ -22,7 +22,10 @@ To enable only a subset, replace the package entry in `~/.pi/agent/settings.json
   "packages": [
     {
       "source": "git:github.com/KenMacD/pi-extensions",
-      "extensions": ["extensions/container-guidance"]
+      "extensions": ["extensions/container-guidance"],
+      "prompts": [],
+      "skills": [],
+      "themes": []
     }
   ]
 }
